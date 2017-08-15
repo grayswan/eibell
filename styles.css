@@ -1,0 +1,166 @@
+body {
+  /*background-color: #F1F1F1;*/
+  background-color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  height: 100%;
+  margin: 0;
+}
+
+.navbar {
+  background-color: #2C2C2C;
+  display: inline-flex;
+  height: 75px;
+  justify-content: space-between;
+  top: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+.logo-container {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+}
+
+.logo-container h1 {
+  color: #D0342D;
+  font-size: 2.8em;
+  letter-spacing: 4px;
+}
+
+.logo-container h2 {
+  color: #fff;
+  font-weight: 200;
+  font-size: 2em;
+  margin-top: 32px;
+  margin-left: .3em;
+  text-transform: uppercase;
+}
+
+.navbar-links-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.navbar-links {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  margin-top: 15px;
+  margin-left: 3em;
+  padding-bottom: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.navbar-links:active,
+ .navbar-links:hover {
+   border-bottom: 2px solid #D0342D;
+   color: #D0342D;
+}
+
+.banner {
+  background-image: url(images/ferrari-02.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-bottom: 1px solid #B8B8B9;
+  height: 90vh;
+  margin-top: 75px;
+  display: flex;
+  align-items: center;
+  opacity: .9;
+}
+
+.banner p {
+  color: #fff;
+  font-size: 3em;
+  font-style: italic;
+  font-weight: 400;
+  margin: 0 2em 0 2em;
+  text-align: center;
+}
+
+.paragraph {
+  background-color: #EDEDED;
+  font-size: 1.5em;
+  padding: 5%;
+  text-align: center;
+}
+
+.services-container {
+  height: auto;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.serives-container-title {
+  font-size: 2em;
+  font-weight: 300;
+  padding-top: 2em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+ul {
+  display: inline-flex;
+  justify-content: space-between;
+  list-style-type: none;
+  width: 90%;
+}
+
+li {
+  align-items: center;
+  display: inline-flex;
+  height: 200px;
+  width: 200px;
+}
+
+li p {
+  padding-left: 20px;
+}
+
+.fa-wrench {
+  background-color: #D0342D;
+  padding: 40px;
+}
+
+.about-us-container {
+  background-color: #EDEDED;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  height: auto;
+  margin: 0 auto;
+  padding: 3em 0 5em 0;
+  width: 100%;
+}
+
+.about-us-container-title {
+  font-size: 2em;
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.about-us-container p {
+  padding: 0 4em 0 4em;
+}
+
+footer {
+  background-color: #2C2C2C;
+  color: #D0342D;
+  display: inline-flex;
+  justify-content: center;
+  width: 100%;
+}
+
+footer h5 {
+  font-weight: 300;
+  letter-spacing: 1px;
+  padding-left: 40px;
+}
