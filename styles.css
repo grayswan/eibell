@@ -18,25 +18,39 @@ body {
 }
 
 .logo-container {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 40%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin-left: 1em;
+  width: 45%;
 }
 
-.logo-container h1 {
+.main-logo {
+  display: inline-flex;
+  align-items: center;
+}
+
+
+.main-logo h1 {
   color: #D0342D;
-  font-size: 2.8em;
+  font-size: 2.3em;
   letter-spacing: 4px;
 }
 
-.logo-container h2 {
+.main-logo h2 {
   color: #fff;
   font-weight: 200;
-  font-size: 2em;
-  margin-top: 32px;
-  margin-left: .3em;
+  font-size: 2.1em;
   text-transform: uppercase;
+}
+
+.sub-logo p {
+  color: #fff;
+  font-weight: 200;
+  font-size: .7em;
+  letter-spacing: 2.5px;
+  margin-top: 0;
+  margin-bottom: .5em;
 }
 
 .navbar-links-container {
@@ -64,44 +78,73 @@ body {
    color: #D0342D;
 }
 
-.banner {
-  background-image: url(images/ferrari-02.png);
+.hero-image {
+  background-image: url(images/reduced-ferrari.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  border-bottom: 1px solid #B8B8B9;
   height: 90vh;
   margin-top: 75px;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  opacity: .9;
+  justify-content: center;
 }
 
-.banner p {
+.main-heading {
   color: #fff;
   font-size: 3em;
   font-style: italic;
   font-weight: 400;
   margin: 0 2em 0 2em;
   text-align: center;
+  text-shadow: 0px 1px 1px #868686;
 }
 
-.paragraph {
+.contact {
   background-color: #EDEDED;
+  height: auto;
+  padding: 4em 1em 4em 1em;
+  text-align: center;
+}
+
+.contact-header {
   font-size: 1.5em;
-  padding: 5%;
+  padding: 0 6em 1em 6em;
+}
+
+.map-container {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 65%;
+}
+
+.map-container a {
+  color: #D0342D;
+  text-decoration: none;
+}
+
+.contact-info {
+  text-align: left;
+}
+
+.contact-info h3 {
+  border-bottom: 3px solid #000;
+  font-weight: 400;
+  padding-bottom: .5em;
   text-align: center;
 }
 
 .services-container {
   height: auto;
   margin: 0 auto;
+  padding-top: 1em;
   width: 90%;
 }
 
-.serives-container-title {
+.serives-header {
   font-size: 2em;
   font-weight: 300;
-  padding-top: 2em;
+  padding-top: 1.5em;
   text-align: center;
   text-transform: uppercase;
 }
@@ -129,6 +172,11 @@ li p {
   padding: 40px;
 }
 
+.services-footer {
+  font-size: 1.2em;
+  text-align: center;
+}
+
 .about-us-container {
   background-color: #EDEDED;
   display: flex;
@@ -136,13 +184,14 @@ li p {
   align-content: center;
   height: auto;
   margin: 0 auto;
-  padding: 3em 0 5em 0;
+  padding: 1em 0 5em 0;
   width: 100%;
 }
 
-.about-us-container-title {
+.about-us-header {
   font-size: 2em;
   font-weight: 300;
+  padding-top: 1.5em;
   text-align: center;
   text-transform: uppercase;
 }
