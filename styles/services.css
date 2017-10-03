@@ -1,0 +1,41 @@
+.services-container {
+  background-color: #EEEEEE;
+  height: auto;
+  margin: 0 auto;
+  padding-top: 1em;
+  padding-bottom: 2em;
+  width: 90%;
+}
+
+.serives-header {
+  font-size: 2em;
+  font-weight: 300;
+  padding-top: 1.5em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+ul {
+  display: inline-flex;
+  justify-content: space-between;
+  list-style-type: none;
+  width: 90%;
+  margin-bottom: 100px;
+}
+
+.services-list-item {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.fa {
+  color: #AAAAAA;
+}
+
+.services-footer {
+  font-size: 1.8em;
+  font-style: italic;
+  text-align: center;
+}

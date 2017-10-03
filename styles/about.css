@@ -1,0 +1,22 @@
+.about-us-container {
+  /*background-color: #EDEDED;*/
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  height: auto;
+  margin: 0 auto;
+  padding: 1em 0 5em 0;
+  width: 100%;
+}
+
+.about-us-header {
+  font-size: 2em;
+  font-weight: 300;
+  padding-top: 1.5em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.about-us-container p {
+  padding: 0 4em 0 4em;
+}

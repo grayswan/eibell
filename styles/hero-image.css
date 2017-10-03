@@ -1,0 +1,18 @@
+.hero-image {
+  background-image: url(../images/red-porsche.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 75vh;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-heading {
+  color: #fff;
+  font-size: 2em;
+  font-weight: 300;
+  margin: 0 20% 0 20%;
+  text-align: center;
+}

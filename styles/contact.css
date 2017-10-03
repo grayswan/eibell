@@ -1,0 +1,42 @@
+.contact-container {
+  display: inline-flex;
+  height: auto;
+  padding: 4em 1em 4em 1em;
+  text-align: center;
+}
+
+.welcome-statement {
+  width: 70%;
+}
+
+.welcome-statement-header {
+  font-size: 2em;
+}
+
+.welcome-statement p {
+  font-size: 1.5em;
+}
+
+.map-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 30%;
+}
+
+.map-container a {
+  color: #D0342D;
+  text-decoration: none;
+}
+
+.contact-info {
+  text-align: left;
+}
+
+.contact-info h3 {
+  border-bottom: 3px solid #000;
+  font-weight: 400;
+  padding-bottom: .5em;
+  text-align: center;
+}
