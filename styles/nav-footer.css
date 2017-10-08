@@ -1,6 +1,6 @@
 body {
   background-color: #fff;
-  color: #474747;
+  color: #333333;
   font-family: 'Open Sans', sans-serif;
   height: 100%;
   margin: 0;
@@ -46,7 +46,7 @@ body {
 }
 
 .navbar-links {
-  color: #777;
+  color: #333333;
   font-size: 20px;
   letter-spacing: 1px;
   line-height: 1.5;

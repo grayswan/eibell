@@ -1,9 +1,13 @@
 .services-container {
-  background-color: #EEEEEE;
+  align-items: center;
+  border-top: 4px solid #333333;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   height: auto;
   margin: 0 auto;
   padding-top: 1em;
-  padding-bottom: 2em;
+  height: 90vh;
   width: 90%;
 }
 
@@ -22,14 +26,22 @@ ul {
   justify-content: space-between;
   list-style-type: none;
   width: 90%;
-  margin-bottom: 100px;
 }
 
 .services-list-item {
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 300px;
+}
+
+.services, .repair, .performance {
   align-items: center;
   display: flex;
   flex-direction: column;
-  width: 300px;
+  height: 50vh;
+  opacity: 0;
 }
 
 .fa {
