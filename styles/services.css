@@ -7,10 +7,12 @@
   width: 90%;
 }
 
-.serives-header {
+.services-header {
   font-size: 2em;
-  font-weight: 300;
-  padding-top: 1.5em;
+  font-weight: 400;
+  letter-spacing: 1px;
+  padding-top: 1em;
+  padding-bottom: 1em;
   text-align: center;
   text-transform: uppercase;
 }

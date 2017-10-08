@@ -1,20 +1,29 @@
 .contact-container {
   display: inline-flex;
   height: auto;
-  padding: 4em 1em 4em 1em;
+  margin-left: 5%;
+  padding: 4em 0 4em 0;
   text-align: center;
+  width: 90%;
 }
 
 .welcome-statement {
-  width: 70%;
+  margin-right: 2em;
+  width: 60%;
 }
 
 .welcome-statement-header {
-  font-size: 2em;
+  font-size: 2.5em;
+  font-weight: 400;
+  letter-spacing: 1px;
 }
 
 .welcome-statement p {
   font-size: 1.5em;
+}
+
+.welcome-statement-footer {
+  font-weight: 400;
 }
 
 .map-container {
@@ -22,7 +31,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 30%;
+  width: 40%;
 }
 
 .map-container a {

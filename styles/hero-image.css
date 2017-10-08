@@ -1,12 +1,13 @@
 .hero-image {
-  background-image: url(../images/red-porsche.jpg);
+  background-image: url(../images/porsche.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   height: 75vh;
-  margin-top: 100px;
+  margin-top: 15vh;
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 .main-heading {
