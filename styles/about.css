@@ -20,3 +20,27 @@
 .about-us-container p {
   padding: 0 4em 0 4em;
 }
+
+@media all and (max-width: 600px) {
+
+  .about-us-header {
+    font-size: 1em;
+  }
+
+  .about-us-container p {
+    font-size: .5em;
+    padding: 0 1em 0 1em;
+  }
+}
+
+@media all and (max-width: 900px) {
+
+  .about-us-header {
+    font-size: 1.5em;
+  }
+
+  .about-us-container p {
+    font-size: 1em;
+    padding: 0 1em 0 1em;
+  }
+}

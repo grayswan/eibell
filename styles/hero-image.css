@@ -7,7 +7,8 @@
   margin-top: 15vh;
   display: flex;
   flex-direction: column;
-  width: 100%;
+  overflow-x: hidden;
+  width: 100vw;
 }
 
 .main-heading {
@@ -16,4 +17,49 @@
   font-weight: 300;
   margin: 0 20% 0 20%;
   text-align: center;
+}
+
+@media all and (max-width: 600px) {
+  .hero-image {
+    height: 30vh;
+    max-width: 100%;
+    margin-top: 10vh;
+  }
+
+  .main-heading {
+    font-size: .7em;
+    margin-top: -1.5em;
+    text-align: center;
+  }
+}
+
+@media all and (max-width: 800px) {
+  .hero-image {
+    height: 70vh;
+    min-width: 100%;
+    max-width: 100%;
+    margin-top: 15vh;
+  }
+
+  .main-heading {
+    font-size: 1em;
+    margin-top: -.5em;
+    text-align: center;
+  }
+}
+
+@media all and (max-width: 1200px) {
+
+  .hero-image {
+    height: 55vh;
+    min-width: 100%;
+    max-width: 100%;
+    margin-top: 10vh;
+  }
+
+  .main-heading {
+    font-size: 1.5em;
+    margin-top: 1em;
+    text-align: center;
+  }
 }

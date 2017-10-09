@@ -3,8 +3,6 @@
   border-top: 4px solid #333333;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  height: auto;
   margin: 0 auto;
   padding-top: 1em;
   height: 90vh;
@@ -41,15 +39,104 @@ ul {
   display: flex;
   flex-direction: column;
   height: 50vh;
-  opacity: 0;
+  /*opacity: 0;*/
 }
 
 .fa {
-  color: #AAAAAA;
+  /*color: #AAAAAA;*/
 }
 
-.services-footer {
-  font-size: 1.8em;
-  font-style: italic;
-  text-align: center;
+@media all and (max-width: 600px) {
+
+  .services-container {
+    min-height: 20vh;
+  }
+
+  .services-header {
+    font-size: 1em;
+    padding: 0;
+  }
+
+   ul {
+     align-items: center;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     -webkit-margin-before: 0;
+     -webkit-margin-after: 0;
+     -webkit-margin-start: 0px;
+     -webkit-margin-end: 0px;
+     -webkit-padding-start: 0;
+   }
+
+   .services-list-item {
+     min-width: 80%;
+   }
+
+   .services-list-item h3 {
+     font-size: .8em;
+   }
+
+   .services-list-item i {
+     font-size: 1.5em;
+   }
+
+   .services-list-item p {
+     font-size: .5em;
+   }
+
+   .services, .repair, .performance {
+     min-height: 25%;
+   }
+}
+
+@media all and (max-width: 800px) {
+
+  .services-container {
+    max-height: 700px;
+    min-height: 700px;
+  }
+
+  .services-header {
+    font-size: 1.5em;
+    padding: 0;
+  }
+
+   ul {
+     align-items: center;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     -webkit-margin-before: 0;
+     -webkit-margin-after: 0;
+     -webkit-margin-start: 0px;
+     -webkit-margin-end: 0px;
+     -webkit-padding-start: 0;
+   }
+
+   .services-list-item {
+     min-height: 200px;
+     max-height: 200px;
+     min-width: 80%;
+   }
+
+   .services-list-item h3 {
+     font-size: 1em;
+   }
+
+   .services-list-item i {
+     font-size: 1.5em;
+   }
+
+   .services-list-item p {
+     font-size: .8em;
+   }
+
+   .services, .repair, .performance {
+     min-height: 25%;
+   }
+}
+
+@media all and (max-width: 1200px) {
+
 }

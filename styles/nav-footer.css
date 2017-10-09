@@ -2,8 +2,10 @@ body {
   background-color: #fff;
   color: #333333;
   font-family: 'Open Sans', sans-serif;
-  height: 100%;
+  height: 100vh;
   margin: 0;
+  overflow-x: hidden;
+  width: 100vw;
 }
 
 .navbar {
@@ -86,11 +88,10 @@ body {
 }
 
 footer {
-  background-color: #fff;
+  align-items: center;
   color: #D0342D;
   display: inline-flex;
   justify-content: center;
-  padding-bottom: 40px;
   width: 100%;
 }
 
@@ -101,36 +102,129 @@ footer h5 {
   padding-left: 40px;
 }
 
-@media all and (max-width: 413px) {
+@media all and (max-width: 600px) {
 
   .navbar {
-    align-items: center;
-    flex-direction: column;
-    height: 15vh;
+    align-content: center;
+    height: 10vh;
     justify-content: center;
+    min-width: 100%;
   }
 
   .logo-container {
-    margin: 0 auto;
-    width: 100%;
+    min-width: 100%;
   }
 
   .logo-container img {
     height: 50px;
-    width: 180px;
+    margin-left: 2.5%;
+    width: 250px;
   }
 
   .navbar-right {
-    background-color: yellow;
-    width: 100%;
+    display: none;
   }
 
   .navbar-links-container {
-    margin-left: 0;
+    display: none;
   }
 
-  .navbar-links {
-    font-size: .5em;
-    margin-left: .5em;
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 100%;
+  }
+
+  footer h5 {
+    font-size: .3em;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media all and (max-width: 800px) {
+
+  .navbar {
+    align-content: center;
+    height: 15vh;
+    justify-content: flex-end;
+    min-width: 100%;
+    max-width: 100%
+  }
+
+  .logo-container {
+    min-width: 100%;
+    max-width: 100%;
+  }
+
+  .logo-container img {
+    height: 60px;
+    margin-left: 2.5%;
+    width: 350px;
+  }
+
+  .navbar-right {
+    display: none;
+  }
+
+  .navbar-links-container {
+    display: none;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 100%;
+  }
+
+  footer h5 {
+    font-size: .8em;
+    margin: 0;
+    padding: 5px;
+  }
+}
+
+@media all and (max-width: 1200px) {
+
+  .navbar {
+    align-content: center;
+    height: 10vh;
+    justify-content: flex-end;
+    min-width: 100%;
+    max-width: 100%
+  }
+
+  .logo-container {
+    min-width: 100%;
+    max-width: 100%;
+  }
+
+  .logo-container img {
+    height: 60px;
+    margin-left: 2.5%;
+    width: 350px;
+  }
+
+  .navbar-right {
+    display: none;
+  }
+
+  .navbar-links-container {
+    display: none;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 100%;
+  }
+
+  footer h5 {
+    font-size: .8em;
+    margin: 0;
+    padding: 5px;
   }
 }

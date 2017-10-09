@@ -22,35 +22,35 @@ $( document ).ready(function() {
     translateY: [30, 30],
     easing: 'easeInOutQuad',
     opacity: [0, 1],
-    delay: 100,
+    delay: 500,
     duration: 3000
   });
 
-  var basicTimeline = anime.timeline();
-
-  basicTimeline
-    .add({
-      opacity: 1,
-      targets: '#services .services.el',
-      translateY: -50,
-      easing: 'easeOutExpo',
-      duration: 500,
-      delay: 100
-    })
-    .add({
-      opacity: 1,
-      targets: '#services .repair.el',
-      translateY: -50,
-      easing: 'easeOutExpo',
-      duration: 500,
-      delay: 100
-    })
-    .add({
-      opacity: 1,
-      targets: '#services .performance.el',
-      translateY: -50,
-      easing: 'easeOutExpo',
-      duration: 500,
-      delay: 100
-    })
+  // var basicTimeline = anime.timeline();
+  //
+  // basicTimeline
+  //   .add({
+  //     opacity: 1,
+  //     targets: '#services .services.el',
+  //     translateY: -50,
+  //     easing: 'easeOutExpo',
+  //     duration: 500,
+  //     delay: 100
+  //   })
+  //   .add({
+  //     opacity: 1,
+  //     targets: '#services .repair.el',
+  //     translateY: -50,
+  //     easing: 'easeOutExpo',
+  //     duration: 500,
+  //     delay: 100
+  //   })
+  //   .add({
+  //     opacity: 1,
+  //     targets: '#services .performance.el',
+  //     translateY: -50,
+  //     easing: 'easeOutExpo',
+  //     duration: 500,
+  //     delay: 100
+  //   })
 });
