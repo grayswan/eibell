@@ -23,7 +23,6 @@ body {
 .logo-container {
   display: flex;
   align-items: center;
-  height: 100%;
   margin-left: 1em;
   width: 50%;
 }
@@ -190,7 +189,7 @@ footer h5 {
 
   .navbar {
     align-content: center;
-    height: 10vh;
+    height: 15vh;
     justify-content: flex-end;
     min-width: 100%;
     max-width: 100%

@@ -20,20 +20,23 @@
 }
 
 @media all and (max-width: 600px) {
+
   .hero-image {
-    height: 30vh;
-    max-width: 100%;
+    background-size: contain;
+    height: 60vh;
     margin-top: 10vh;
+    max-width: 100%;
   }
 
   .main-heading {
-    font-size: .7em;
-    margin-top: -1.5em;
+    font-size: 1em;
+    margin-right: .8em;
+    margin-left: .8em;
     text-align: center;
   }
 }
 
-@media all and (max-width: 800px) {
+@media all and (min-width: 601px and max-width: 900px) {
   .hero-image {
     height: 70vh;
     min-width: 100%;
@@ -44,22 +47,6 @@
   .main-heading {
     font-size: 1em;
     margin-top: -.5em;
-    text-align: center;
-  }
-}
-
-@media all and (max-width: 1200px) {
-
-  .hero-image {
-    height: 55vh;
-    min-width: 100%;
-    max-width: 100%;
-    margin-top: 10vh;
-  }
-
-  .main-heading {
-    font-size: 1.5em;
-    margin-top: 1em;
     text-align: center;
   }
 }
