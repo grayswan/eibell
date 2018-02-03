@@ -1,24 +1,38 @@
 .about-us-container {
-  border-top: 4px solid #333333;
+  border-bottom: 4px solid #e6e6e6;
   height: auto;
   margin: 0 auto;
-  padding-top: 1em;
   padding-bottom: 2em;
   width: 90%;
 }
 
 .about-us-header {
+  border-bottom: 4px solid #e6e6e6;
   font-size: 2em;
   font-weight: 400;
   letter-spacing: 1px;
-  padding-top: 1em;
   padding-bottom: 1em;
   text-align: center;
   text-transform: uppercase;
 }
 
-.about-us-container p {
-  padding: 0 4em 0 4em;
+.headshot-group-container {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-top: 2em;
+}
+
+.headshot-container h3 {
+  font-size: 1.4em;
+  font-weight: 400;
+  text-align: center;
+}
+
+.headshot {
+  height: 200px;
+  width: 200px;
 }
 
 @media all and (max-width: 600px) {

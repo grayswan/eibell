@@ -3,8 +3,8 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 75vh;
-  margin-top: 15vh;
+  height: 80vh;
+  margin-top: 90px;
   display: flex;
   flex-direction: column;
   overflow-x: hidden;
@@ -13,9 +13,9 @@
 
 .main-heading {
   color: #fff;
-  font-size: 2em;
+  font-size: 1.8em;
   font-weight: 300;
-  margin: 0 20% 0 20%;
+  margin: 1% 20% 0 20%;
   text-align: center;
 }
 

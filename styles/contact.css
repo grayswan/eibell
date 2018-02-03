@@ -1,53 +1,81 @@
-.contact-container {
-  display: inline-flex;
-  height: auto;
-  margin-left: 5%;
-  padding: 4em 0 4em 0;
-  text-align: center;
-  width: 90%;
-}
-
 .welcome-statement {
-  margin-right: 2em;
-  width: 60%;
+  padding: 2.5em 0 4em 0;
+  width: 100%;
 }
 
 .welcome-statement-header {
-  font-size: 2.5em;
+  font-size: 2.2em;
   font-weight: 400;
   letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.welcome-statement-content {
+  text-align: center;
+  width: 75%;
+  margin: 0 auto;
 }
 
 .welcome-statement p {
-  font-size: 1.3em;
+  font-size: 1.2em;
 }
 
-.welcome-statement-footer {
-  font-weight: 600;
+.contact-container {
+  align-items: center;
+  border-bottom: 4px solid #e6e6e6;
+  border-top: 4px solid #e6e6e6;
+  margin: 0 auto;
+  padding-top: 1em;
+  padding-bottom: 5em;
+  width: 90%;
+}
+
+.contact {
+  align-items: center;
+  display: inline-flex;
+  justify-content: space-between;
+  padding-top: 1em;
+  width: 100%;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width: 40%;
+}
+
+
+.contact-info-details div {
+  align-items: center;
+  display: inline-flex;
+  width: 100%;
+}
+
+.contact-info-details div h4 {
+  margin-right: 10px;
+}
+
+.contact-info-details i {
+  font-size: 1.5em;
+  margin-right: 20px;
+}
+
+.contact-info-details a {
+  color: #333333;
 }
 
 .map-container {
   align-items: center;
+  box-shadow: 5px 9px 20px 0px rgba(0, 0, 0, 0.2);
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 40%;
 }
 
 .map-container a {
   color: #D0342D;
   text-decoration: none;
-}
-
-.contact-info {
-  text-align: left;
-}
-
-.contact-info h3 {
-  border-bottom: 3px solid #000;
-  font-weight: 400;
-  padding-bottom: .5em;
-  text-align: center;
 }
 
 @media all and (max-width: 600px) {
