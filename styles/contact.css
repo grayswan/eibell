@@ -22,6 +22,9 @@
 
 .contact-container {
   align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   border-bottom: 4px solid #e6e6e6;
   border-top: 4px solid #e6e6e6;
   margin: 0 auto;
@@ -35,13 +38,15 @@
   display: inline-flex;
   justify-content: space-between;
   padding-top: 1em;
-  width: 100%;
+  margin: 0 auto;
+  width: 90%;
 }
 
 .contact-info {
   display: flex;
   flex-direction: column;
   align-content: center;
+  margin-left: 50px;
   width: 40%;
 }
 
