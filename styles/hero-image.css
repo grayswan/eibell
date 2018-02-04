@@ -19,24 +19,22 @@
   text-align: center;
 }
 
-@media all and (max-width: 600px) {
+@media only screen and (width : 375px) {
 
   .hero-image {
     background-size: contain;
-    height: 60vh;
-    margin-top: 10vh;
+    height: 200px;
+    margin-top: 90px;
     max-width: 100%;
   }
 
   .main-heading {
-    font-size: 1em;
-    margin-right: .8em;
-    margin-left: .8em;
-    text-align: center;
+    font-size: 10px;
+    margin-top: -10px;
   }
 }
 
-@media all and (min-width: 601px and max-width: 900px) {
+/* @media all and (min-width: 601px and max-width: 900px) {
   .hero-image {
     height: 70vh;
     min-width: 100%;
@@ -49,4 +47,4 @@
     margin-top: -.5em;
     text-align: center;
   }
-}
+} */

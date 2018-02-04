@@ -9,6 +9,7 @@ body {
 }
 
 body p {
+  font-size: 1.1em;
   line-height: 2;
 }
 
@@ -61,38 +62,76 @@ footer h5 {
   padding-left: 40px;
 }
 
-@media all and (max-width: 600px) {
+.section-container {
+  border-bottom: 4px solid #e6e6e6;
+  height: auto;
+  margin: 0 auto;
+  padding-bottom: 2em;
+  width: 90%;
+}
+
+.section-header {
+  border-bottom: 4px solid #e6e6e6;
+  font-size: 2em;
+  font-weight: 400;
+  letter-spacing: 1px;
+  padding-bottom: 1em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@media only screen and (width : 375px) {
+
+  body p {
+    font-size: .5em;
+  }
 
   .navbar {
-    align-content: center;
-    height: 10vh;
-    justify-content: center;
-    min-width: 100%;
+    flex-direction: column-reverse;
+    height: 100px;
   }
 
   .logo-container {
-    min-width: 100%;
+    margin: 0 auto;
+    height: 75px;
   }
 
   .logo-container img {
+    margin-left: 0;
     height: 50px;
-    margin-left: 2.5%;
-    width: 250px;
   }
 
   .navbar-right {
-    display: none;
+    border-bottom: 1px solid #f4f4f4;
+    font-size: .5em;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    height: 25px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    text-align: center;
+    width: 100%;
   }
 
-  .navbar-links-container {
-    display: none;
+  .section-container {
+    border-bottom: 2px solid #e6e6e6;
+    padding-bottom: 1em;
+  }
+
+  .section-header {
+    border-bottom: 2px solid #e6e6e6;
+    font-size: .7em;
   }
 
   footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    min-width: 100%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width: 100%;
   }
 
   footer h5 {
@@ -102,7 +141,7 @@ footer h5 {
   }
 }
 
-@media all and (max-width: 800px) {
+/* @media all and (max-width: 767px) {
 
   .navbar {
     align-content: center;
@@ -143,9 +182,9 @@ footer h5 {
     margin: 0;
     padding: 5px;
   }
-}
+} */
 
-@media all and (max-width: 1200px) {
+/* @media all and (max-width: 992px) {
 
   .navbar {
     align-content: center;
@@ -186,4 +225,4 @@ footer h5 {
     margin: 0;
     padding: 5px;
   }
-}
+} */
