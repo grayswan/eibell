@@ -19,7 +19,8 @@
   text-align: center;
 }
 
-@media only screen and (width : 375px) {
+/* iPhone 6, 7, and X */
+@media only screen and (max-width : 375px) {
 
   .hero-image {
     background-size: contain;
@@ -34,17 +35,61 @@
   }
 }
 
-/* @media all and (min-width: 601px and max-width: 900px) {
+/* iphone 6, 7, 8 nexus 5 Landscape */
+@media only screen and (max-width: 667px) and (orientation: landscape) {
+
   .hero-image {
     height: 70vh;
-    min-width: 100%;
-    max-width: 100%;
-    margin-top: 15vh;
+    margin-top: 100px;
+    width: 100%;
   }
 
   .main-heading {
-    font-size: 1em;
-    margin-top: -.5em;
-    text-align: center;
+    font-size: 13px;
+    margin-top: -15px;
   }
-} */
+}
+
+/* iPhone 6+, 7+, 8+ */
+@media only screen and (max-width: 414px) and (min-width: 376px) {
+
+  .hero-image {
+    height: 200px;
+    margin-top: 90px;
+    width: 100%;
+  }
+
+  .main-heading {
+    font-size: 10px;
+    margin-top: -10px;
+  }
+}
+
+/* iPad/tablet */
+@media only screen and (max-width: 768px) and (min-width: 668px) {
+
+  .hero-image {
+    height: 38vh;
+    margin-top: 125px;
+    width: 100%;
+  }
+
+  .main-heading {
+    font-size: 20px;
+  }
+}
+
+/* iPad Pro */
+@media only screen and (max-width: 1024px) and (min-width: 769px) {
+
+  .hero-image {
+    background-size: contain;
+    height: 45vh;
+    margin-top: 75px;
+  }
+
+  .main-heading {
+    font-size: 23px;
+    margin-top: 50px;
+  }
+}

@@ -17,8 +17,13 @@
   width: 200px;
 }
 
-@media only screen and (width : 375px) {
+/* iPhone 6, 7, and X */
+@media only screen and (max-width: 375px) {
 
+  .about-us-text {
+    font-size: .5em;
+    padding-left: .75em;
+  }
 
   .headshot-group-container {
     display: flex;
@@ -42,14 +47,104 @@
   }
 }
 
-@media all and (min-width: 601px and max-width: 900px)  {
+/* iphone 6, 7, 8 nexus 5 Landscape */
+@media only screen and (max-width: 667px) and (orientation: landscape) {
 
-  .about-us-header {
-    font-size: 1.5em;
+  .about-us-text {
+    font-size: .75em;
+    padding: 1em;
   }
 
-  .about-us-container p {
+  .headshot-container h3 {
     font-size: 1em;
-    padding: 0 1em 0 1em;
+  }
+
+  .headshot-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .headshot {
+    height: 100px;
+    width: 100px;
+  }
+}
+
+/* iPhone 6+, 7+, 8+ */
+@media only screen and (max-width: 414px) and (min-width: 376px) {
+
+  .about-us-text {
+    font-size: .5em;
+    padding-left: .75em;
+  }
+
+  .headshot-group-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1em;
+  }
+
+  .headshot-container h3 {
+    font-size: 1em;
+  }
+
+  .headshot-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .headshot {
+    height: 100px;
+    width: 100px;
+  }
+}
+
+/* iPad/tablet */
+@media only screen and (max-width: 768px) and (min-width: 415px) {
+
+  .about-us-text {
+    font-size: .75em;
+    padding-left: .75em;
+  }
+
+  .headshot-container h3 {
+    font-size: 1em;
+  }
+
+  .headshot-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .headshot {
+    height: 100px;
+    width: 100px;
+  }
+}
+
+/* iPad Pro */
+@media only screen and (max-width: 1024px) and (min-width: 668px) {
+
+  .about-us-text {
+    font-size: 1.1em;
+    padding: 1em;
+  }
+
+  .headshot-container h3 {
+    font-size: 1.1em;
+  }
+
+  .headshot-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .headshot {
+    height: 100px;
+    width: 100px;
   }
 }

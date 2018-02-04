@@ -63,7 +63,7 @@ footer h5 {
 }
 
 .section-container {
-  border-bottom: 4px solid #e6e6e6;
+  border-bottom: 2px solid #e6e6e6;
   height: auto;
   margin: 0 auto;
   padding-bottom: 2em;
@@ -71,7 +71,7 @@ footer h5 {
 }
 
 .section-header {
-  border-bottom: 4px solid #e6e6e6;
+  border-bottom: 2px solid #e6e6e6;
   font-size: 2em;
   font-weight: 400;
   letter-spacing: 1px;
@@ -80,7 +80,8 @@ footer h5 {
   text-transform: uppercase;
 }
 
-@media only screen and (width : 375px) {
+/* iPhone 6, 7, and X Portrait */
+@media only screen and (max-width: 375px) {
 
   body p {
     font-size: .5em;
@@ -102,7 +103,7 @@ footer h5 {
   }
 
   .navbar-right {
-    border-bottom: 1px solid #f4f4f4;
+    border-bottom: 1px solid #5E5E5E;
     font-size: .5em;
     display: flex;
     flex-direction: column;
@@ -112,7 +113,8 @@ footer h5 {
     padding-bottom: 15px;
     padding-top: 10px;
     text-align: center;
-    width: 100%;
+    width: 75%;
+    margin: 0 auto;
   }
 
   .section-container {
@@ -141,88 +143,234 @@ footer h5 {
   }
 }
 
-/* @media all and (max-width: 767px) {
+/* iphone 6, 7, 8 nexus 5 Landscape */
+@media only screen and (max-width: 667px) and (orientation: landscape) {
 
   .navbar {
-    align-content: center;
-    height: 15vh;
-    justify-content: flex-end;
-    min-width: 100%;
-    max-width: 100%
+    flex-direction: column-reverse;
+    height: 100px;
   }
 
   .logo-container {
-    min-width: 100%;
-    max-width: 100%;
+    margin: 0 auto;
   }
 
   .logo-container img {
-    height: 60px;
-    margin-left: 2.5%;
-    width: 350px;
+    margin-left: 0;
+    height: 50px;
   }
 
   .navbar-right {
-    display: none;
+    align-content: center;
+    border-bottom: 1px solid #5E5E5E;
+    display: flex;
+    flex-direction: column;
+    font-size: .7em;
+    justify-content: center;
+    height: 25px;
+    padding: 10px 0 10px 0;
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
   }
 
-  .navbar-links-container {
-    display: none;
+  .section-container {
+    border-bottom: 2px solid #e6e6e6;
+    padding-bottom: 2em;
+  }
+
+  .section-header {
+    border-bottom: 2px solid #e6e6e6;
+    font-size: 1em;
   }
 
   footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    min-width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
   }
 
   footer h5 {
-    font-size: .8em;
+    font-size: .3em;
+    line-height: 2;
     margin: 0;
-    padding: 5px;
+    padding: 0;
   }
-} */
+}
 
-/* @media all and (max-width: 992px) {
+/* iPhone 6 plus, 7 plus, 8 plus */
+@media only screen and (max-width: 414px) and (min-width: 376px) {
+
+  body p {
+    font-size: .75em;
+  }
 
   .navbar {
-    align-content: center;
-    height: 15vh;
-    justify-content: flex-end;
-    min-width: 100%;
-    max-width: 100%
+    flex-direction: column-reverse;
+    height: 100px;
   }
 
   .logo-container {
-    min-width: 100%;
-    max-width: 100%;
+    margin: 0 auto;
+    height: 75px;
   }
 
   .logo-container img {
-    height: 60px;
-    margin-left: 2.5%;
-    width: 350px;
+    margin-left: 0;
+    height: 50px;
   }
 
   .navbar-right {
-    display: none;
+    border-bottom: 1px solid #5E5E5E;
+    font-size: .5em;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    height: 25px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
   }
 
-  .navbar-links-container {
-    display: none;
+  .section-container {
+    border-bottom: 2px solid #e6e6e6;
+    padding-bottom: 1em;
+  }
+
+  .section-header {
+    border-bottom: 2px solid #e6e6e6;
+    font-size: .7em;
   }
 
   footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    min-width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
   }
 
   footer h5 {
-    font-size: .8em;
+    font-size: .3em;
     margin: 0;
-    padding: 5px;
+    padding: 0;
   }
-} */
+}
+
+/* iPad/tablet */
+@media only screen and (max-width: 768px) and (min-width: 668px) {
+
+  .navbar {
+    flex-direction: column-reverse;
+    height: 125px;
+  }
+
+  .logo-container {
+    margin: 0 auto;
+  }
+
+  .logo-container img {
+    margin-left: 0;
+    height: 65px;
+  }
+
+  .navbar-right {
+    align-content: center;
+    border-bottom: 1px solid #5E5E5E;
+    display: flex;
+    flex-direction: column;
+    font-size: .75em;
+    justify-content: center;
+    height: 25px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+  }
+
+  .section-container {
+    border-bottom: 2px solid #e6e6e6;
+    padding-bottom: 1em;
+  }
+
+  .section-header {
+    border-bottom: 2px solid #e6e6e6;
+    font-size: 1em;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+  }
+
+  footer h5 {
+    font-size: .3em;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+/* iPad Pro */
+@media only screen and (max-width: 1024px) and (min-width: 769px) {
+
+  .navbar {
+    flex-direction: column-reverse;
+    height: 125px;
+  }
+
+  .logo-container {
+    margin: 0 auto;
+  }
+
+  .logo-container img {
+    margin-left: 0;
+    height: 75px;
+  }
+
+  .navbar-right {
+    align-content: center;
+    border-bottom: 1px solid #5E5E5E;
+    display: flex;
+    flex-direction: column;
+    font-size: .75em;
+    justify-content: center;
+    height: 25px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    text-align: center;
+    margin: 0 auto;
+    width: 46%;
+  }
+
+  .section-header {
+    border-bottom: 2px solid #e6e6e6;
+    font-size: 1.5em;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+  }
+
+  footer h5 {
+    font-size: .3em;
+    margin: 0;
+    padding: 0;
+  }
+}

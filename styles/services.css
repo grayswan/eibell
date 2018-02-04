@@ -14,15 +14,13 @@
   list-style: none;
 }
 
-.services, .repair, .performance {
-  /* align-items: center;
-  display: flex;
-  flex-direction: column;
-  height: 50vh; */
-  /*opacity: 0;*/
-}
+/* iPhone 6, 7, and X */
+@media only screen and (max-width: 375px) {
 
-@media only screen and (width : 375px) {
+  .services-text {
+    font-size: .5em;
+    padding: 0 .75em 0 .75em;
+  }
 
   ul li {
     font-size: .5em;
@@ -34,60 +32,94 @@
 
    .services-list-item h3 {
      font-size: .5em;
-   }
-
-   .services, .repair, .performance {
-     min-height: 25%;
+     padding-left: .75em;
    }
 }
 
-@media all and (min-width: 601px and max-width: 900px)  {
+/* iphone 6, 7, 8 nexus 5 Landscape */
+@media only screen and (max-width: 667px) and (orientation: landscape) {
 
-  .services-container {
-    max-height: 700px;
-    min-height: 700px;
+  .services-text {
+    font-size: .75em;
+    padding: 1em;
   }
 
-  .services-header {
-    font-size: 1.5em;
-    padding: 0;
+  ul li {
+    font-size: .5em;
   }
 
-   ul {
-     align-items: center;
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     -webkit-margin-before: 0;
-     -webkit-margin-after: 0;
-     -webkit-margin-start: 0px;
-     -webkit-margin-end: 0px;
-     -webkit-padding-start: 0;
-   }
+  .services-list-item {
+    min-width: 80%;
+  }
+
+  .services-list-item h3 {
+    font-size: 1em;
+    padding-left: 1em;
+  }
+}
+
+/* iPhone 6+, 7+, 8+ */
+@media only screen and (max-width: 414px) and (min-width: 376px) {
+
+  .services-text {
+    font-size: .5em;
+    padding: 0 1em 0 1em;
+  }
+
+    ul li {
+      font-size: .5em;
+    }
 
    .services-list-item {
-     min-height: 200px;
-     max-height: 200px;
      min-width: 80%;
    }
 
    .services-list-item h3 {
-     font-size: 1em;
-   }
-
-   .services-list-item i {
-     font-size: 1.5em;
-   }
-
-   .services-list-item p {
-     font-size: .8em;
-   }
-
-   .services, .repair, .performance {
-     min-height: 25%;
+     font-size: .5em;
+     padding-left: .75em;
    }
 }
 
-@media all and (max-width: 1200px) {
+/* iPad/tablet */
+@media only screen and (max-width: 768px) and (min-width: 415px) {
 
+  .services-text {
+    font-size: .75em;
+    padding: 0 1em 0 1em;
+  }
+
+  ul li {
+    font-size: .75em;
+  }
+
+  .services-list-item {
+    min-width: 80%;
+  }
+
+  .services-list-item h3 {
+    font-size: .5em;
+    padding-left: 1em;
+  }
+}
+
+/* iPad Pro */
+@media only screen and (max-width: 1024px) and (min-width: 668px) {
+
+  .services-text {
+    font-size: 1.1em;
+    padding: 1em;
+  }
+
+  ul li {
+    font-size: 1em;
+  }
+
+  .services-list-item {
+    min-width: 80%;
+  }
+
+  .services-list-item h3 {
+    font-size: 1.1em;
+    padding-left: 1em;
+  }
 }
