@@ -6,7 +6,7 @@
 }
 
 .welcome-statement-header {
-  font-size: 2.2em;
+  font-size: 1.8em;
   font-weight: 400;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -19,7 +19,7 @@
 }
 
 .welcome-statement p {
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
 .map-container {
@@ -59,7 +59,7 @@
 }
 
 .contact-info-details div h4 {
-  margin-right: 10px;
+  margin-right: 15px;
 }
 
 .social-media-icons i {
@@ -71,22 +71,20 @@
   color: #333333;
 }
 
-/* iPhone 6, 7, and X */
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 481px) {
 
   .welcome-statement {
     border-bottom: 2px solid #e6e6e6;
     margin: 0 auto;
-    min-width: 80%;
     padding: .5em 0 1em 0;
   }
 
   .welcome-statement-header {
-    font-size: .8em;
+    font-size: .75em;
   }
 
   .welcome-statement p {
-    font-size: .5em
+    font-size: .4em
   }
 
   .contact {
@@ -108,13 +106,11 @@
   }
 
   .contact-details {
-    display: flex;
-    flex-direction: column
+    margin-left: 30%;
   }
 
   .social-media-icons {
     display: inline-flex;
-    justify-content: center;
   }
 
   .social-media-icons i {
@@ -122,8 +118,7 @@
   }
 }
 
-/* iphone 6, 7, 8 nexus 5 Landscape */
-@media only screen and (max-width: 667px) and (orientation: landscape) {
+@media only screen and (max-width: 767px) and (min-width: 482px) {
 
   .welcome-statement {
     border-bottom: 2px solid #e6e6e6;
@@ -133,11 +128,11 @@
   }
 
   .welcome-statement-header {
-    font-size: 1.3em;
+    font-size: 1.1em;
   }
 
   .welcome-statement p {
-    font-size: .75em
+    font-size: .6em
   }
 
   iframe {
@@ -161,8 +156,7 @@
   }
 }
 
-/* iPhone 6+, 7+, 8+ */
-@media only screen and (max-width: 414px) and (min-width: 376px) {
+@media only screen and (max-width: 812px) and (min-width: 768px) {
 
   .welcome-statement {
     border-bottom: 2px solid #e6e6e6;
@@ -172,39 +166,27 @@
   }
 
   .welcome-statement-header {
-    font-size: .8em;
+    font-size: 1.3em;
   }
 
   .welcome-statement p {
-    font-size: .5em
-  }
-
-  .contact {
-    align-content: center;
-    display: flex;
-    flex-direction: column;
+    font-size: .75em
   }
 
   iframe {
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
   }
 
   .contact-info {
     padding-top: 20px;
-    font-size: .5em;
+    font-size: .75em;
     margin: 0 auto;
     width: 100%;
   }
 
   .contact-details {
-    display: flex;
-    flex-direction: column
-  }
-
-  .social-media-icons {
-    display: inline-flex;
-    justify-content: center;
+    margin-left: 50px;
   }
 
   .social-media-icons i {
@@ -212,8 +194,45 @@
   }
 }
 
-/* iPad/tablet */
-@media only screen and (max-width: 768px) and (min-width: 668px) {
+@media only screen and (max-width: 992px) and (min-width: 813px) {
+
+  .welcome-statement {
+    border-bottom: 2px solid #e6e6e6;
+    margin: 0 auto;
+    min-width: 80%;
+    padding: .5em 0 1em 0;
+  }
+
+  .welcome-statement-header {
+    font-size: 1.3em;
+  }
+
+  .welcome-statement p {
+    font-size: .75em
+  }
+
+  iframe {
+    width: 350px;
+    height: 350px;
+  }
+
+  .contact-info {
+    padding-top: 20px;
+    font-size: .75em;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .contact-details {
+    margin-left: 50px;
+  }
+
+  .social-media-icons i {
+    margin-right: 10px;
+  }
+}
+
+@media only screen and (max-width: 1212px) and (min-width: 993px) {
 
   .welcome-statement {
     border-bottom: 2px solid #e6e6e6;
@@ -248,29 +267,5 @@
 
   .social-media-icons i {
     margin-right: 10px;
-  }
-}
-
-/* iPad Pro */
-@media only screen and (max-width: 1024px) and (min-width: 769px) {
-
-  .welcome-statement {
-    border-bottom: 2px solid #e6e6e6;
-    margin: 0 auto;
-    min-width: 80%;
-    padding: 0 0 2em 0;
-  }
-
-  .welcome-statement-header {
-    font-size: 1.5em;
-  }
-
-  .welcome-statement p {
-    font-size: 1.1em
-  }
-
-  iframe {
-    width: 450px;
-    height: 400px;
   }
 }

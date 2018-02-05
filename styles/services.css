@@ -10,12 +10,15 @@
   width: 100%;
 }
 
+.services-list-item h3 {
+  font-weight: 500;
+}
+
 .services-list-item ul li {
   list-style: none;
 }
 
-/* iPhone 6, 7, and X */
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 481px) {
 
   .services-text {
     font-size: .5em;
@@ -36,11 +39,10 @@
    }
 }
 
-/* iphone 6, 7, 8 nexus 5 Landscape */
-@media only screen and (max-width: 667px) and (orientation: landscape) {
+@media only screen and (max-width: 767px) and (min-width: 482px) {
 
   .services-text {
-    font-size: .75em;
+    font-size: .6em;
     padding: 1em;
   }
 
@@ -53,21 +55,20 @@
   }
 
   .services-list-item h3 {
-    font-size: 1em;
+    font-size: .75em;
     padding-left: 1em;
   }
 }
 
-/* iPhone 6+, 7+, 8+ */
-@media only screen and (max-width: 414px) and (min-width: 376px) {
+@media only screen and (max-width: 812px) and (min-width: 768px) {
 
   .services-text {
-    font-size: .5em;
+    font-size: .75em;
     padding: 0 1em 0 1em;
   }
 
     ul li {
-      font-size: .5em;
+      font-size: .75em;
     }
 
    .services-list-item {
@@ -75,13 +76,33 @@
    }
 
    .services-list-item h3 {
-     font-size: .5em;
-     padding-left: .75em;
+     font-size: .85em;
+     padding-left: 1em;
    }
 }
 
-/* iPad/tablet */
-@media only screen and (max-width: 768px) and (min-width: 415px) {
+@media only screen and (max-width: 992px) and (min-width: 813px) {
+
+  .services-text {
+    font-size: .75em;
+    padding: 0 1em 0 1em;
+  }
+
+    ul li {
+      font-size: .75em;
+    }
+
+   .services-list-item {
+     min-width: 80%;
+   }
+
+   .services-list-item h3 {
+     font-size: .85em;
+     padding-left: 1em;
+   }
+}
+
+@media only screen and (max-width: 1212px) and (min-width: 993px) {
 
   .services-text {
     font-size: .75em;
@@ -97,29 +118,7 @@
   }
 
   .services-list-item h3 {
-    font-size: .5em;
-    padding-left: 1em;
-  }
-}
-
-/* iPad Pro */
-@media only screen and (max-width: 1024px) and (min-width: 668px) {
-
-  .services-text {
-    font-size: 1.1em;
-    padding: 1em;
-  }
-
-  ul li {
     font-size: 1em;
-  }
-
-  .services-list-item {
-    min-width: 80%;
-  }
-
-  .services-list-item h3 {
-    font-size: 1.1em;
     padding-left: 1em;
   }
 }

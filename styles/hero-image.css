@@ -5,91 +5,81 @@
   background-position: center;
   height: 80vh;
   margin-top: 100px;
-  display: flex;
-  flex-direction: column;
   overflow-x: hidden;
   width: 100vw;
 }
 
 .main-heading {
   color: #fff;
-  font-size: 1.8em;
+  font-size: 1.7em;
   font-weight: 300;
   margin: 1% 20% 0 20%;
   text-align: center;
 }
 
-/* iPhone 6, 7, and X */
-@media only screen and (max-width : 375px) {
+@media only screen and (max-width: 481px) {
 
   .hero-image {
     background-size: contain;
     height: 200px;
-    margin-top: 90px;
-    max-width: 100%;
+    margin-top: 60px;
+    width: 100%;
   }
 
   .main-heading {
-    font-size: 10px;
-    margin-top: -10px;
+    font-size: 8px;
+    margin-top: -5px;
   }
 }
 
-/* iphone 6, 7, 8 nexus 5 Landscape */
-@media only screen and (max-width: 667px) and (orientation: landscape) {
+@media only screen and (max-width: 767px) and (min-width: 482px) {
 
   .hero-image {
     height: 70vh;
+    margin-top: 85px;
+    width: 100%;
+  }
+
+  .main-heading {
+    font-size: 14px;
+    margin-top: -15px;
+  }
+}
+
+@media only screen and (max-width: 812px) and (min-width: 768px) {
+
+  .hero-image {
+    margin-top: 75px;
+    width: 100%;
+  }
+
+  .main-heading {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 992px) and (min-width: 813px) {
+
+  .hero-image {
+    height: 80vh;
     margin-top: 100px;
     width: 100%;
   }
 
   .main-heading {
-    font-size: 13px;
+    font-size: 18px;
     margin-top: -15px;
   }
 }
 
-/* iPhone 6+, 7+, 8+ */
-@media only screen and (max-width: 414px) and (min-width: 376px) {
+@media only screen and (max-width: 1212px) and (min-width: 993px) {
 
   .hero-image {
-    height: 200px;
-    margin-top: 90px;
-    width: 100%;
-  }
-
-  .main-heading {
-    font-size: 10px;
-    margin-top: -10px;
-  }
-}
-
-/* iPad/tablet */
-@media only screen and (max-width: 768px) and (min-width: 668px) {
-
-  .hero-image {
-    height: 38vh;
-    margin-top: 125px;
+    margin-top: 75px;
     width: 100%;
   }
 
   .main-heading {
     font-size: 20px;
-  }
-}
-
-/* iPad Pro */
-@media only screen and (max-width: 1024px) and (min-width: 769px) {
-
-  .hero-image {
-    background-size: contain;
-    height: 45vh;
-    margin-top: 75px;
-  }
-
-  .main-heading {
-    font-size: 23px;
-    margin-top: 50px;
   }
 }

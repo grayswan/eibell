@@ -17,8 +17,7 @@
   width: 200px;
 }
 
-/* iPhone 6, 7, and X */
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 481px) {
 
   .about-us-text {
     font-size: .5em;
@@ -29,6 +28,29 @@
     display: flex;
     flex-direction: column;
     padding-top: 1em;
+  }
+
+  .headshot-container h3 {
+    font-size: .75em;
+  }
+
+  .headshot-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .headshot {
+    height: 100px;
+    width: 100px;
+  }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 482px) {
+
+  .about-us-text {
+    font-size: .6em;
+    padding: 1em;
   }
 
   .headshot-container h3 {
@@ -47,16 +69,50 @@
   }
 }
 
-/* iphone 6, 7, 8 nexus 5 Landscape */
-@media only screen and (max-width: 667px) and (orientation: landscape) {
+@media only screen and (max-width: 812px) and (min-width: 768px) {
 
   .about-us-text {
     font-size: .75em;
-    padding: 1em;
+    padding-left: 1em;
   }
 
   .headshot-container h3 {
     font-size: 1em;
+  }
+
+  .headshot-group-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1em;
+  }
+
+  .headshot-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .headshot {
+    height: 100px;
+    width: 100px;
+  }
+}
+
+@media only screen and (max-width: 992px) and (min-width: 813px) {
+
+  .about-us-text {
+    font-size: .75em;
+    padding-left: 1em;
+  }
+
+  .headshot-container h3 {
+    font-size: 1em;
+  }
+
+  .headshot-group-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1em;
   }
 
   .headshot-container {
@@ -72,7 +128,7 @@
 }
 
 /* iPhone 6+, 7+, 8+ */
-@media only screen and (max-width: 414px) and (min-width: 376px) {
+/* @media only screen and (max-width: 481px) and (min-width: 376px) {
 
   .about-us-text {
     font-size: .5em;
@@ -99,10 +155,9 @@
     height: 100px;
     width: 100px;
   }
-}
+} */
 
-/* iPad/tablet */
-@media only screen and (max-width: 768px) and (min-width: 415px) {
+@media only screen and (max-width: 1212px) and (min-width: 993px) {
 
   .about-us-text {
     font-size: .75em;
@@ -111,30 +166,6 @@
 
   .headshot-container h3 {
     font-size: 1em;
-  }
-
-  .headshot-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .headshot {
-    height: 100px;
-    width: 100px;
-  }
-}
-
-/* iPad Pro */
-@media only screen and (max-width: 1024px) and (min-width: 668px) {
-
-  .about-us-text {
-    font-size: 1.1em;
-    padding: 1em;
-  }
-
-  .headshot-container h3 {
-    font-size: 1.1em;
   }
 
   .headshot-container {
