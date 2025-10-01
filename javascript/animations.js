@@ -16,7 +16,7 @@ var isOnScreen = function() {
 };
 
 
-$( document ).ready(function() {
+$(document).ready(function() {
   var cssSelector = anime({
     targets: '#animated-text-container .el',
     translateY: [30, 30],
@@ -25,32 +25,4 @@ $( document ).ready(function() {
     delay: 500,
     duration: 3000
   });
-
-  // var basicTimeline = anime.timeline();
-  //
-  // basicTimeline
-  //   .add({
-  //     opacity: 1,
-  //     targets: '#services .services.el',
-  //     translateY: -50,
-  //     easing: 'easeOutExpo',
-  //     duration: 500,
-  //     delay: 100
-  //   })
-  //   .add({
-  //     opacity: 1,
-  //     targets: '#services .repair.el',
-  //     translateY: -50,
-  //     easing: 'easeOutExpo',
-  //     duration: 500,
-  //     delay: 100
-  //   })
-  //   .add({
-  //     opacity: 1,
-  //     targets: '#services .performance.el',
-  //     translateY: -50,
-  //     easing: 'easeOutExpo',
-  //     duration: 500,
-  //     delay: 100
-  //   })
 });
